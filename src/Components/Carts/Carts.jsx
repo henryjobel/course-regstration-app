@@ -3,8 +3,8 @@ import Cart from "../Cart/Cart";
 const Carts = ({allSeletedCarts,remaining,credit}) => {
     
     return (
-        <div className="text-center">
-            <h1>Credit Hour Remaining {remaining} hr</h1>
+        <div className="card bg-slate-100 shadow-xl">
+            <h1 className="font-bold text-sky-500 border-b-8">Credit Hour Remaining {remaining} hr</h1>
             <h1>Carts: {allSeletedCarts.length}</h1>
             {
                 allSeletedCarts.map(cart => <Cart
@@ -16,5 +16,4 @@ const Carts = ({allSeletedCarts,remaining,credit}) => {
         </div>
     );
 };
-
 export default Carts;

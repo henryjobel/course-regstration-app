@@ -3,6 +3,7 @@ import './App.css'
 import Cards from './Components/Cards/Cards';
 import Carts from './Components/Carts/Carts';
 import { useState } from 'react';
+import Swal from 'sweetalert2';
 function App() {
   const [allSeletedCarts,setAllSelectedCarts] = useState([]);
   const [remaining,setRemaining] = useState(0);
@@ -14,7 +15,12 @@ function App() {
     let count = card.reading_time
 
     if(alreadyExist){
-     return alert("all ready add");
+     return Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'You Already Add This Course',
+      footer: '<a href="">Sorry Nothing to Do</a>'
+    })
     }
     else{
       allSeletedCarts.forEach((item)=>{
@@ -24,7 +30,12 @@ function App() {
       
       const remainingToltal = 20 - count;
       if(count > 20){
-        return alert("it no possible to Add Credit hour")
+        return Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'Sorry You Cross Your Credit Limite',
+          
+        })
       }
       else{
         const newSelectedCarts = [...allSeletedCarts,card]

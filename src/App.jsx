@@ -6,9 +6,17 @@ import { useState } from 'react';
 function App() {
   const [allSeletedCarts,setAllSelectedCarts] = useState([]);
   const  handelAddToCard = card => {
-    const newSelectedCarts = [...allSeletedCarts,card]
-    setAllSelectedCarts(newSelectedCarts)
-    console.log(newSelectedCarts)
+    const alreadyExist = allSeletedCarts.find(item => item.id === card.id)
+    if(alreadyExist){
+     return alert("all ready add");
+    }
+    else{
+      const newSelectedCarts = [...allSeletedCarts,card]
+    
+      setAllSelectedCarts(newSelectedCarts)
+    }
+   
+    
   }
   return (
     <>  

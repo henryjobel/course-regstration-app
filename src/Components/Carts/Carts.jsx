@@ -1,9 +1,16 @@
+import Cart from "../Cart/Cart";
 
-const Carts = ({allSeletedCarts}) => {
+const Carts = ({allSeletedCarts,alreadyExist}) => {
     
     return (
-        <div>
+        <div className="text-center">
             <h1>Carts: {allSeletedCarts.length}</h1>
+            {
+                allSeletedCarts.map(cart => <Cart
+                key={cart.id}
+                    cart={cart}
+                    ></Cart>)
+            }
         </div>
     );
 };

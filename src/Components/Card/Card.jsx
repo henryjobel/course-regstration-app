@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 
 
-const Card = ({card, handelAddToCard}) => {
+const Card = ({card, handelAddToCard,alreadyExist}) => {
     const {title,cover_photo,description,price,reading_time} = card; 
      return (
         <div className="card w-96 bg-base-100 shadow-xl">

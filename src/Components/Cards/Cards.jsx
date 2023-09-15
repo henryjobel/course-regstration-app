@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Card from "../Card/Card";
 
-const Cards = ({handelAddToCard}) => {
+const Cards = ({handelAddToCard,alreadyExist}) => {
     const [card,setCards] = useState([])
 
     useEffect( () => {

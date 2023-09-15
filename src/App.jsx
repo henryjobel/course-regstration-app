@@ -1,6 +1,7 @@
 import Header from './Components/Header/Header'
 import './App.css'
 import Cards from './Components/Cards/Cards';
+import Carts from './Components/Carts/Carts';
 
 function App() {
   
@@ -9,7 +10,10 @@ function App() {
     <>  
     
     <Header></Header>
-    <Cards></Cards>
+    <div className='flex'>
+      <Cards></Cards>
+      <Carts></Carts>
+    </div>
     </>
   )
 }

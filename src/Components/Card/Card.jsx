@@ -1,14 +1,10 @@
-/* eslint-disable react/prop-types */
-import PropTypes from 'prop-types';
-import { useState } from 'react';
 
-const Card = ({card}) => {
-    const {title,cover_photo,description,price,reading_time} = card;
-    const handelSelect =(card)=> {
-        console.log(card)
-    }
-    const [allSeletedCard , setAllSelectedXard] = useState([])
-    return (
+import PropTypes from 'prop-types';
+
+
+const Card = ({card, handelAddToCard}) => {
+    const {title,cover_photo,description,price,reading_time} = card; 
+     return (
         <div className="card w-96 bg-base-100 shadow-xl">
         <figure className="px-10 pt-10">
             <img src={cover_photo}alt="Shoes" className="rounded-xl" />
@@ -21,15 +17,13 @@ const Card = ({card}) => {
                    <h1>Credit:{reading_time} hr</h1> 
                 </div>
                 <div className="card-actions">
-                <button onClick={()=>handelSelect(card)} className="btn btn-primary">Buy Now</button>
+                <button onClick={()=>handelAddToCard (card)} className="btn btn-primary">Buy Now</button>
                 </div>
             </div>
         </div>
     );
 };
 
-Card.PropTypes = {
-    card: PropTypes.object.isRequired
-}
+
 
 export default Card;

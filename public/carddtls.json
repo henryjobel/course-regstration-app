@@ -1,0 +1,83 @@
+[
+    {
+      "id": "1",
+      "cover_photo": "https://i.ibb.co/GRmLSNf/Rectangle-2.png",
+      "title": "Introduction to C Programming",
+      "description": "C programming is a foundational language for software development. It provides a structured approach to writing efficient and portable code. Developed in the early 1970s, it remains influential in system programming, embedded systems, and applications. C's syntax and versatility make it a valuable skill for programmers.",
+      "price": 15000,
+      "credit": "Visa",
+      "reading_time": 30
+    },
+    {
+      "id": "2",
+      "cover_photo": "https://i.ibb.co/MgWJxpN/Rectangle-2-1.png",
+      "title": "Introduction to Algorithms",
+      "description": "Introduction to Algorithms by Cormen, Leiserson, Rivest, and Stein is a renowned textbook in computer science. It covers a wide range of algorithmic topics with clarity and depth. This book is essential for students, programmers, and anyone interested in mastering the art of algorithm design and analysis.",
+      "price": 25000,
+      "credit": "Visa",
+      "reading_time": 30
+    },
+    {
+      "id": "3",
+      "cover_photo": "https://i.ibb.co/0XfKv6p/Rectangle-2-2.png",
+      "title": "Introduction to C++ for DSA",
+      "description": "C++ is a versatile programming language extending C with object-oriented features. Crucial for Data Structures and Algorithms (DSA), it allows efficient problem-solving through classes, templates, and standard libraries. Widely used in competitive programming and software development, C++ is a key language for mastering DSA concepts.",
+      "price": 10000,
+      "credit": "Visa",
+      "reading_time": 30
+    },
+    {
+      "id": "4",
+      "cover_photo": "https://i.ibb.co/pr8MkKt/Rectangle-2-3.png",
+      "title": "Basic Data Structures",
+      "description": "Basic data structures are foundational components in computer science. They include arrays, linked lists, stacks, queues, and trees. These structures organize and store data, enabling efficient manipulation and retrieval. Understanding them is essential for designing efficient algorithms and solving complex computational problems.",
+      "price": 35000,
+      "credit": "Visa",
+      "reading_time": 30
+    },
+    {
+      "id": "5",
+      "cover_photo": "https://i.ibb.co/vjTdggp/Rectangle-2-4.png",
+      "title": "Introduction to OOP Python",
+      "description": "Object-Oriented Programming (OOP) in Python is a programming paradigm where code is organized into objects with properties and behaviors. Python's OOP features include classes, inheritance, and polymorphism, allowing for modular and reusable code. It enhances code clarity and is widely used for software development.",
+      "price": 19000,
+      "credit": "Visa",
+      "reading_time": 30
+    },
+    {
+      "id": "6",
+      "cover_photo": "https://i.ibb.co/wCKt6tc/Rectangle-2-5.png",
+      "title": "Software Engineering",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": 23000,
+      "credit": "Visa",
+      "reading_time": 30
+    },
+    {
+      "id": "7",
+      "cover_photo": "https://i.ibb.co/GdF0CQH/Rectangle-2-6.png",
+      "title": "AWS, Cloud Computing",
+      "description": "Software Engineering is a systematic approach to designing, developing, testing, and maintaining software systems. It employs principles, methods, and tools to ensure reliable, efficient, and scalable software solutions. This discipline encompasses various stages, from requirements analysis to deployment, aiming for high-quality and robust applications.",
+      "price": 35000,
+      "credit": "Visa",
+      "reading_time": 30
+    },
+    {
+      "id": "8",
+      "cover_photo": "https://i.ibb.co/23NHDWf/Rectangle-3.png",
+      "title": "Database (MySQL)",
+      "description": "MySQL is a popular open-source relational database management system (RDBMS). It stores and manages structured data, offering fast, reliable, and scalable data storage and retrieval. MySQL is widely used for web applications, content management systems, and various data-driven software, offering SQL for querying and managing data.",
+      "price": 25000,
+      "credit": "Visa",
+      "reading_time": 30
+    },
+    {
+      "id": "9",
+      "cover_photo": "hhttps://i.ibb.co/cx13Gj5/Rectangle-3-1.png",
+      "title": "Problem-Solving Part",
+      "description": "Problem-solving is a critical skill in various fields, involving analyzing situations, identifying challenges, and devising effective solutions. It requires logical thinking, creativity, and structured approaches. In programming and computer science, it's fundamental for algorithm design and debugging, enabling efficient development and innovation.",
+      "price": 25.99,
+      "credit": "Visa",
+      "reading_time": 30
+    }
+  ]

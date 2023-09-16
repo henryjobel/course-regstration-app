@@ -3,7 +3,7 @@
 const Cart = ({cart}) => {
     const {title} = cart;
     return (
-        <div className=" bg-slate-200 p-4 m-4 rounded-xl">
+        <div className=" bg-slate-200 rounded-xl mt-1">
             
             <h3>{title}</h3>
         </div>

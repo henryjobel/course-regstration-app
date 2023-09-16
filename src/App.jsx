@@ -52,7 +52,7 @@ function App() {
     <>  
     
     <Header></Header>
-    <div className='flex'>
+    <div className='flex gap-10 justify-between'>
       <Cards handelAddToCard={handelAddToCard}></Cards>
       <Carts allSeletedCarts={allSeletedCarts} remaining={remaining} credit={credit}></Carts>
     </div>
